@@ -4,17 +4,24 @@ This Ansible playbook will install lampstack and install a wordpress site in Ama
 Variables:
 ----------
 
-#Mysql variables:
+#M ysql variables:
+
 mysql_root: mysqlroot123
 
-#Wordpress variables
+# Wordpress variables
+
 wordpress_database: wordpress
+
 wordpress_user: wpuser
+
 wordpress_password: wpuser324
 
-#Apache variables
+# Apache variables
+
 domain: www.example.com
+
 domain_owner: apache
+
 domain_group: apache
 
 Playbook:
