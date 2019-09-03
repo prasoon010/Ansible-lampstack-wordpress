@@ -26,6 +26,7 @@ domain_group: apache
 
 Playbook:
 ---------
+```
 
 ---
 - name: "Playbook for lampstack-wordpress installation with removal"
@@ -191,6 +192,7 @@ Playbook:
         - /tmp/wordpress
       tags:
         - lamp-wordpress
+ ```
         
  Template files
  --------------
