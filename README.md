@@ -3,26 +3,20 @@ This Ansible playbook will install lampstack and install a wordpress site in Ama
 
 # Variables:
 ----------
-
+```
 #Mysql variables:
-
 mysql_root: mysqlroot123
 
 #Wordpress variables
-
 wordpress_database: wordpress
-
 wordpress_user: wpuser
-
 wordpress_password: wpuser324
 
 #Apache variables
-
 domain: www.example.com
-
 domain_owner: apache
-
 domain_group: apache
+```
 
 Playbook:
 ---------
@@ -196,15 +190,19 @@ Playbook:
         
  Template files
  --------------
+ 
  # vim virtualhost.j2
+ ```
 <virtualhost *:80>
   servername {{domain}}
   documentroot /var/www/html/{{domain}}
   directoryindex index.php index.html info.html info.php
 </virtualhost>
+```
 
 
 # vim wp-config.php.j2
+```
 
 <?php
 
@@ -232,5 +230,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once( ABSPATH . 'wp-settings.php' );
+```
 
        
