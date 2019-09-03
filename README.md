@@ -1,14 +1,14 @@
 # Ansible-lampstack-wordpress using tags
 This Ansible playbook will install lampstack and install a wordpress site in Amazon linux EC2. Using tags 'lamp' and 'lamp-wordpress' we have better control over installation. The tag 'lamp' the playbook will install lampstack alone. 
 
-Variables:
+# Variables:
 ----------
 
-#M ysql variables:
+#Mysql variables:
 
 mysql_root: mysqlroot123
 
-# Wordpress variables
+#Wordpress variables
 
 wordpress_database: wordpress
 
@@ -16,7 +16,7 @@ wordpress_user: wpuser
 
 wordpress_password: wpuser324
 
-# Apache variables
+#Apache variables
 
 domain: www.example.com
 
