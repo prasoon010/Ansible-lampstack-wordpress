@@ -1,4 +1,4 @@
-# Ansible-lampstack-wordpress
+# Ansible-lampstack-wordpress using tags
 This Ansible playbook will install lampstack and install a wordpress site in Amazon linux EC2. Using tags 'lamp' and 'lamp-wordpress' we have better control over installation. The tag 'lamp' the playbook will install lampstack alone. 
 
 Variables:
