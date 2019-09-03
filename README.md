@@ -191,7 +191,7 @@ Playbook:
  Template files
  --------------
  
- # vim virtualhost.j2
+ #vim virtualhost.j2
  ```
 <virtualhost *:80>
   servername {{domain}}
@@ -201,7 +201,7 @@ Playbook:
 ```
 
 
-# vim wp-config.php.j2
+#vim wp-config.php.j2
 ```
 
 <?php
