@@ -7,7 +7,7 @@ Variables:
 #Mysql variables:
 mysql_root: mysqlroot123
 
-#Wordpress variables:
+#Wordpress variables
 wordpress_database: wordpress
 wordpress_user: wpuser
 wordpress_password: wpuser324
